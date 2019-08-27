@@ -1,0 +1,6 @@
+npp_save
+cd "$(CURRENT_DIRECTORY)"
+g++ "$(FILE_NAME)" -o $(NAME_PART) -march=native -O3
+NPP_RUN $(NAME_PART)
+
+"$(FULL_CURRENT_PATH)"
